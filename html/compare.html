@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare models</title>
+    <link rel="stylesheet" href="/css/compare.css">
+    <!-- <link rel="stylesheet" href="/main.css"> -->
+</head>
+<body>
+    <section id="navbarId">
+        <div class="navbar glass-light-cr brr-nb ">
+            <div class="logo">
+                <img src="/img/logo.png">
+            </div>
+
+           <div class="nav-item-contianer brr-nb">
+               <li class="nav-items glass-wt-br"><a href="/index.html">Home</a></li>
+               <li class="nav-items glass-wt-br"><a href="/html/about.html">About us</a></li>
+               <!-- <li class="nav-items br brr"><a href="product.html">products -->
+                <li class="dropdown glass-wt-br nav-items">
+                    <a href="#" class="dropbtn">Products
+                        <svg  class="glass-light-cr-wt-br" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        <path fill="none" d="M0 0h24v24H0z"/>
+                      </svg>
+                    </a>
+                    <div class="dropdown-content">
+                      <a href="/html/bike1.html">Rhyno SE03 Lite</a>
+                      <a href="/html/bike2.html">bike 2</a>
+                      <a href="/html/bike3.html">bike 3</a>
+                      <a href="/html/compare.html">compare Models</a>
+                    </div>
+                  </li>
+               </a></li>
+               <li class="nav-items glass-wt-br"><a href="/html/contact.html">Contact us</a></li>
+               <li class="nav-items glass-wt-br"><a href="/html/booking.html">Pre-book now</a></li>
+           </div> 
+
+        </div>
+    </section>
+    <!-- Compare section -->
+    <section class="compare">
+        <div class="compare-cards glass-light-cr-wt-br br">
+            <h1 class="glass-light-cr-wt-br">Select model</h1>
+            <select name="bikes" id="bike" class="glass-light-cr-wt-br">
+                <option value="Rhyno SE03 Lite">Rhyno SE03 Lite</option>
+                <option value="Rhyno SE03">Rhyno SE03</option>
+                <option value="Rhyno SE03 Max">Rhyno SE03 Max</option>
+            </select>
+        </div>
+        <div class="compare-cards glass-light-cr-wt-br br">
+            <h1 class="glass-light-cr-wt-br">Select model</h1>
+            <select name="bikes" id="bike" class="glass-light-cr-wt-br">
+                <option value="Rhyno SE03 Lite">Rhyno SE03 Lite</option>
+                <option value="Rhyno SE03">Rhyno SE03</option>
+                <option value="Rhyno SE03 Max">Rhyno SE03 Max</option>
+            </select>
+        </div>
+    </section>
+    <div class="compare-btn">
+        <button class="btn">compare</button>
+    </div>
+    <div class="pr-table"></div>
+
+    <script src="/js/compare.js"></script>
+</body>
+</html>

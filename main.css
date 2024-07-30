@@ -1,0 +1,432 @@
+*{
+    background-color: black;
+    color: white;
+}
+.br{
+    border:2px solid whitesmoke;
+}
+
+.brr-nb{
+    border-radius: 40px;
+}
+.brr{
+border-radius:5px;
+}
+.brr-15p{
+border-radius:15px;
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+
+.logo{
+    /* border: 2px soild white; */
+    height: 70px;
+} 
+.logo img{ 
+     height: 70px;
+    /* background:; */
+} 
+
+/* navbar */
+#navbarId{
+    margin-bottom: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed; /* or position: sticky; */
+    top: 0;
+    left: 0;
+    width: 90%;
+    z-index: 10;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* border: 2px solid whitesmoke; */
+   
+}
+
+.glass{
+    backdrop-filter: blur(6px);
+    background: rgba(76, 76, 76, 0.563);
+    box-shadow: rgba(0,0,0,0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.glass-light-cr{
+    backdrop-filter: blur(6px);
+    background: rgba(39,39,39, 0);
+    box-shadow: rgba(0,0,0,0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.glass-light-cr-wt-br{
+    backdrop-filter: blur(6px);
+    background: rgba(39,39,39, 0);
+    box-shadow: rgba(0,0,0,0.1);
+}
+.glass-wt-br{
+    backdrop-filter: blur(6px);
+    background: rgba(39, 39, 39, 0);
+    box-shadow: rgba(0,0,0,0.1);
+
+}
+a{
+    all: unset;
+}
+.nav-items:hover{
+cursor: pointer;
+background-color: rgb(239, 226, 85);
+border: 2px solid whitesmoke;
+}
+.nav-items{
+}
+.nav-item-contianer li{
+    list-style-type: none;
+    margin: 10px;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.nav-item-contianer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    height: 70px;
+    backdrop-filter: blur(3px);
+    /* background: rgba(23, 23, 23, 0.1); */
+    background: transparent;
+    box-shadow: rgba(0,0,0,0.1);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+svg{
+    fill: white;
+}
+.dropdown {
+    float: left;
+    /* overflow: hidden; */
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #fff64f;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+
+
+
+
+/* banner */
+#bannerId{
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 130px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner-text{
+    font-size: xx-large;
+    align-self: center;
+}
+
+.banner img{
+    border: 2px solid whitesmoke;
+    height: 400px;
+    width: 400px;
+}
+
+.pr1-img img{
+height: 400px;
+width: 600px;
+}
+.product1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 50px;
+    margin: 90px 90px;
+}
+.pr-content{
+    font-size: xx-large;
+    font-family:monospace;
+}
+.pr-content a{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.pr-color1{
+    background-color:blue ;
+    cursor: pointer;
+}
+.pr-color2{
+    background-color:green ;
+    cursor: pointer;
+}
+.pr-color3{
+background-color:red ;
+}
+.pr-color1:hover{
+    border: 2px solid wheat;
+    cursor: pointer;
+}
+.pr-color2:hover{
+    border: 2px solid wheat;
+    cursor: pointer;
+}
+.pr-color3:hover{
+    border: 2px solid wheat;
+    cursor: pointer;
+}
+
+.grid-container-prno3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items:center;
+    
+}
+
+.product img{
+    height: 200px;
+    width: 300px;    
+}
+.product{
+    margin: 10px;  
+    display:flex;
+    flex-direction: column;
+    align-items:center;  
+}
+
+.compare-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.compare-model{
+    padding: 10px;
+}
+.compare-model:hover{
+    cursor: pointer;
+    color:black;
+    background-color:lightgreen;
+}
+
+/* carousel */
+
+.carousel-card{
+  height: 600px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+border-radius: 50px;
+padding: 30px;
+} 
+ /* .carousel{
+    overflow: hidden;
+  width: 90%;
+  margin: auto;
+}
+.carousel *{
+    box-sizing: border-box;
+
+}
+
+.carousel-inner{
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+/*.carousel-card{
+    position: absolute;
+  top:0;
+  width: 100%;
+  margin: auto;
+  padding: 1rem 4rem;
+  z-index: 100;
+  transition: transform .5s, opacity .5s, z-index .5s;
+} */
+ /* Parent wrapper to carousel. Width can be changed as needed. */
+ .carousel-wrapper {
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* Apply 'border-box' to 'box-sizing' so border and padding is included in the width and height. */
+  .carousel-wrapper * {
+    box-sizing: border-box;
+  }
+  
+  /* We'll be using the 'transform' property to move the carousel's items, so setting the 'transform-style' to 'preserve-3d' will make sure our nested elements are rendered properly in the 3D space. */
+  .carousel {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  
+  /* By default we're hiding items (except the initial one) until the JS initiates. Elements are absolutely positioned with a width of 100% (as we're styling for mobile first), letting the content's height dictate the height of the carousel. Our magic property here for all our animation needs is 'transition', taking the properties we wish to animate 'transform' and 'opacity', along with the length of time in seconds. */
+  .carousel__photo {
+    opacity: 0;
+    position: absolute;
+    top:0;
+    border-radius: 50px;
+    height: 350px;
+    width: 90%;
+    margin: auto;
+    padding: 1rem 4rem;
+    z-index: 100;
+    transition: transform .5s, opacity .5s, z-index .5s;
+  }
+  
+  /* Display the initial item and bring it to the front using 'z-index'. These styles also apply to the 'active' item. */
+  .carousel__photo.initial,
+  .carousel__photo.active {
+    opacity: 1;
+    position: relative;
+    z-index: 900;
+  }
+  
+  /* Set 'z-index' to sit behind our '.active' item. */
+  .carousel__photo.prev,
+  .carousel__photo.next {
+    z-index: 800;
+  }
+  
+  /* Translate previous item to the left */
+  .carousel__photo.prev {
+    transform: translateX(-100%);
+  }
+  
+  /* Translate next item to the right */
+  .carousel__photo.next {
+    transform: translateX(100%);
+  }
+  
+  /* Style navigation buttons to sit in the middle, either side of the carousel. */
+  .carousel__button--prev,
+  .carousel__button--next {
+    position: absolute;
+    top:50%;
+    width: 3rem;
+    height: 3rem;
+    background-color: #FFF;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    cursor: pointer; 
+    z-index: 1001; /* Sit on top of everything */
+    border:1px solid black;
+  /*  opacity: 0;  Hide buttons until carousel is initialised 
+    transition:opacity 1s;*/
+  }
+  
+  .carousel__button--prev {
+    left:0;
+  }
+  
+  .carousel__button--next {
+    right:0;
+  }
+  
+  /* Use pseudo elements to insert arrows inside of navigation buttons */
+  .carousel__button--prev::after,
+  .carousel__button--next::after {
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 54%;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(-50%, -50%) rotate(135deg);
+  }
+  
+  .carousel__button--next::after {
+    left: 47%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+
+/* footer */
+.footer-columns{
+margin-top: 25px;
+width:50%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+hr{
+ margin-left: 30px;
+ margin-right: 30px;
+ margin-block-start: 25px;
+ margin-block-end: 25px;
+}
+.column1{
+    margin-left: 40px;
+}
+.column1 li{
+list-style:none;
+}
+.column1 li:hover{
+    cursor: pointer;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-nav li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer-nav li:hover{
+    cursor: pointer;
+}
+.footer-nav img{
+    height: 100px;
+    width: 229px;
+}
