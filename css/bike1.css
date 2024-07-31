@@ -1,0 +1,30 @@
+body{
+}
+#productId{
+    margin-top: 130px;
+}
+.product1{
+    height: 400px;
+}
+
+/* featues */
+.features-container{
+    height: 400px;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-bottom: 50px;
+   padding: 50px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   place-items: center;
+
+}
+
+.feature-card{
+    height: 80px;
+    width: 300px;
+    box-shadow: 8px 8px lightgreen;
+}
+.feature-card:hover{
+    box-shadow: 11px 11px lightgreen;
+}
