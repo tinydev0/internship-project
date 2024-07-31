@@ -1,0 +1,52 @@
+.br{
+    border:2px solid whitesmoke;
+}
+
+.brr-nb{
+    border-radius: 40px;
+}
+.brr{
+border-radius:5px;
+}
+.brr-15p{
+border-radius:15px;
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+
+.logo{
+    /* border: 2px soild white; */
+    height: 70px;
+} 
+.logo img{ 
+     height: 70px;
+    /* background:; */
+} 
+.glass{
+    backdrop-filter: blur(6px);
+    background: rgba(76, 76, 76, 0.563);
+    box-shadow: rgba(0,0,0,0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.glass-light-cr{
+    backdrop-filter: blur(6px);
+    background: rgba(39,39,39, 0);
+    box-shadow: rgba(0,0,0,0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.glass-light-cr-wt-br{
+    backdrop-filter: blur(6px);
+    background: rgba(39,39,39, 0);
+    box-shadow: rgba(0,0,0,0.1);
+}
+.glass-wt-br{
+    backdrop-filter: blur(6px);
+    background: rgba(39, 39, 39, 0);
+    box-shadow: rgba(0,0,0,0.1);
+
+}

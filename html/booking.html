@@ -5,84 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pre-book</title>
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/css/booking.css">
+    <link rel="stylesheet" href="/css/general.css">
 </head>
 <body>
-    <section id="navbarId">
-        <div class="navbar glass-light-cr brr-nb ">
-            <div class="logo">
-                <img src="/img/logo.png">
+    <!-- pre book form -->
+    <section>
+      <div class="form-container glass-light-cr">
+        <h1>Book Your Electric Motorbike</h1>
+
+        <form id="bookingForm" onsubmit="submitForm(event)">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+          </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your Email">
             </div>
+            <div>   
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your number">
+            </div>
+            <div>
+              <label for="date">Preferred Date:</label>
+              <input type="date" id="date" name="date" placeholder="Enter the Date">
+            </div>
+            <div class="next-btn">
+              <a href="./payment.html " class="btn" >Next</a>
+            </div>
+        </form>
+      </div>
 
-           <div class="nav-item-contianer brr-nb">
-               <li class="nav-items glass-wt-br"><a href="/index.html">Home</a></li>
-               <li class="nav-items glass-wt-br"><a href="about.html">About us</a></li>
-               <!-- <li class="nav-items br brr"><a href="product.html">products -->
-                <li class="dropdown glass-wt-br nav-items">
-                    <a href="#" class="dropbtn">Products
-                        <svg  class="glass-light-cr-wt-br" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
-                        <path fill="none" d="M0 0h24v24H0z"/>
-                      </svg>
-                    </a>
-                    <div class="dropdown-content">
-                      <a href="bike1.html">Rhyno SE03 Lite</a>
-                      <a href="bike2.html">Rhyno SE03</a>
-                      <a href="bike3.html">Rhyno SE03 Max</a>
-                      <a href="compare.html">Compare Models</a>
-                    </div>
-                  </li>
-               </a></li>
-               <li class="nav-items glass-wt-br"><a href="contact.html">Contact us</a></li>
-               <li class="nav-items glass-wt-br"><a href="booking.html">Pre-book now</a></li>
-           </div> 
-
-        </div>
     </section>
-
-    <footer class="footer br">
-        <div class="footer-columns">
-                    <div class="column1">
-                        <ul> 
-                            <li><b>Electric Scooter</b></li>
-                        <li><a href="/html/bike1.html">Rhyno SE03 Lite</a></li>
-                        <li><a href="/html/bike2.html">Rhyno SE03</a></li>
-                        <li><a href="/html/bike3.html">Rhyno SE03 Max</a></li>
-                        <li><a href="/html/compare.html">compare Models</a></li>
-                    </ul>
-                       
-                    </div>
-                    <div class="column1">
-                        <ul>
-                          <li><b>Corporate Partnerships</b></li> 
-                        <li><a href="/html/bike1.html">Rhyno SE03 Lite</a></li>
-                        <li><a href="/html/bike2.html">Rhyno SE03</a></li>
-                        <li><a href="/html/bike3.html">Rhyno SE03 Max</a></li> 
-                        </ul>
-                        
-                    </div>
-                </div>
-
-                <div class="footer-nav">
-                    
-                        <li class="footer-nav-item "><img src="/img/logo.png"></li>
-                        <li class="footer-nav-item "><a href="">Privacy policy</a></li>
-                        <li class="footer-nav-item "><a href="">Refund policy</a></li>
-                        <li class="footer-nav-item "><a href="">Website policy</a></li>
-                        <li class="footer-nav-item "><a href="">Contact us</a></li>
-                        <li class="footer-nav-item "><a href="">Rentals</a></li>
-                    
-                </div>
-                  <hr>
-                  <div>
-                    <a href="#" class="social-icon"><img src=""></a>
-                    <a href="#" class="social-icon"><img src=""></a>
-                  </div>
-                  <div>
-                    <p>
-                        
-                    </p>
-                  </div>
-    </footer>
+   
 </body>
 </html>

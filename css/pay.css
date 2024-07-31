@@ -1,0 +1,28 @@
+#payment{
+   display: grid;
+   place-items: center;
+}
+.payment-container{
+    margin-top: 100px;
+    height: 450px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.pay-options{
+    display: grid;
+    height:350px;
+    width: 400px;
+}
+.qr{
+    height:350px;
+    width: 400px;
+
+}
+.options{
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+}
