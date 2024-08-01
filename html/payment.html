@@ -14,21 +14,31 @@
         <div class="payment-container glass br brr">
             <div class="pay-options br brr">
                 <div class="options ">
-                   <p>Net Banking</p> 
+                   <h3 id="net-banking">Net Banking </h3>
                 </div>
                 <div class="options ">
-                   <p>Credit/Debit Card</p> 
+                   <h3 id="credit-debit">Credit/Debit Card</h3>
                 </div>
-                <div class="options ">
-                   <p> Pay via Upi id</p>
-                </div>
-                <div class="options ">
-                   <p>Pay via Crypto</p> 
+                <div class="options">
+                    <!-- on click have to increase the height of option by adding class in options div (have to add options-inc-ht)  need to add pay button also-->
+                   <h3>Pay via Upi id</h3> 
+                   <div id="upi-id">
+                    <!-- <input type="number" name="upiId" placeholder="Enter Upi id">
+                    <button>pay</button> -->
+                </div> 
+            </div>
+            <div class="options ">
+                <h3>Pay via Crypto</h3>
+                <div id="pay-crypto">
+
                 </div>
             </div>
-            <div class="qr br brr"> 
-                <img src="/img/frame.png" alt="payment QR" class="qr-image">
-                <h4>Scan to pay</h4>
+        </div>
+        <div class="qr br brr"> 
+            <img src="/img/frame.png" alt="payment QR" class="qr-image">
+            <h4>Scan to pay</h4>
+            <input type="text" name="upi-transac-id" placeholder="Enter Upi Transaction Id">
+            <button>Summit</button>
             </div>
         </div>
     </section>

@@ -21,8 +21,6 @@ body{
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   
-   
    height:350px;
    width: 400px;
 }
@@ -40,10 +38,28 @@ body{
     border: 3px solid lightgreen;
 }
 .options{
-    height: 50px;
+    height: 60px;
     width: 200px;
     border-bottom: 1px solid white;
+}
+.options h3{
+    margin-bottom: 0%;
 }
 .options:hover{
    box-shadow: 5px 0px lightgreen;
 }
+#upi-id input{
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+}
+
+.options-inc-ht{
+ height: 120px !important;
+}
+
+/* .qr-image h4{
+    margin-top: 1px;
+    margin-bottom: 1px;
+} */

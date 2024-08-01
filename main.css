@@ -191,7 +191,7 @@ width: 600px;
     justify-content: space-around;
     align-items: center;
     padding: 50px 50px;
-    margin: 90px 90px;
+    margin: 90px 90px 22px ;
 }
 .pr-content{
     font-size: xx-large;
@@ -229,9 +229,10 @@ background-color:red ;
 
 .grid-container-prno3{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-items:center;
-    
+    place-items: center;
+    grid-template-columns: repeat(2,1fr);
+    width: 1133px;
+    margin-left: 100px;
 }
 
 .product img{
@@ -239,11 +240,12 @@ background-color:red ;
     width: 300px;    
 }
 .product{
-    margin: 10px;  
-    display:flex;
-    flex-direction: column;
-    align-items:center;  
+  width: 500px;
+    display:grid;
+    place-content: center center;
+    text-align: center;
 }
+
 
 .compare-btn{
     display:flex;
@@ -294,33 +296,30 @@ padding: 30px;
   z-index: 100;
   transition: transform .5s, opacity .5s, z-index .5s;
 } */
- /* Parent wrapper to carousel. Width can be changed as needed. */
+ /* Parent wrapper to carousel.*/
  .carousel-wrapper {
     overflow: hidden;
     width: 90%;
     margin: auto;
   }
   
-  /* Apply 'border-box' to 'box-sizing' so border and padding is included in the width and height. */
   .carousel-wrapper * {
     box-sizing: border-box;
   }
   
-  /* We'll be using the 'transform' property to move the carousel's items, so setting the 'transform-style' to 'preserve-3d' will make sure our nested elements are rendered properly in the 3D space. */
   .carousel {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
   }
   
-  /* By default we're hiding items (except the initial one) until the JS initiates. Elements are absolutely positioned with a width of 100% (as we're styling for mobile first), letting the content's height dictate the height of the carousel. Our magic property here for all our animation needs is 'transition', taking the properties we wish to animate 'transform' and 'opacity', along with the length of time in seconds. */
   .carousel__photo {
     opacity: 0;
     position: absolute;
     top:0;
     border-radius: 50px;
     height: 450px;
-    width: 60%;
+    width: 80%;
     margin: auto;
     padding: 1rem 4rem;
     z-index: 100;
@@ -434,4 +433,26 @@ list-style:none;
 .footer-nav img{
     height: 100px;
     width: 229px;
+}
+
+/* About us */
+#About-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  margin-bottom: 30px;
+
+}
+
+/* Contaact */
+#Contact{
+  margin-top: 130px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-size-l h1{
+  text-align: center;
 }
