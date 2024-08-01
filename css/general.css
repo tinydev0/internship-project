@@ -12,6 +12,30 @@ border-radius:5px;
 border-radius:15px;
 }
 
+.buy-btn{
+
+}
+.book-btn{
+    height: 30px;
+    width: 115px;
+    margin: 5px;
+    background-color: rgb(255, 255, 119);
+    color: black;
+}
+.book-btn a{
+    all: unset;
+    font-size: x-large;
+    padding: 7px;
+}
+.book-btn:hover{
+    background-color: lightgreen;
+    color: black;
+}
+.center-hz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .circle{
     height: 30px;
     width: 30px;
