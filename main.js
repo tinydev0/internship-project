@@ -1,24 +1,13 @@
-// !(function(d){
-
-//      var next = d.getElementsByClassName('carousel__button--next')[0],
-//      prev = d.getElementsByClassName('carousel__button--prev')[0];
-// next.addEventListener("click",()=>{
-//     var classLength = d.querySelectorAll(".carousel__photo");
-//     console.log(classLength.length);
-//     classLength[1].classList.add('active');
-//     classLength[0].classList.add('prev');
-//     let slide = 1;
-// })
-// prev.addEventListener("click",()=>{
-//     if(slide == 1){
-//         classLength[0].classList.remove('prev');
-//         classLength[0].classList.add('active');
-//         classLength[1].classList.add('next');
-//     }
-// })
-// }(document));
-
-
+let changeText = document.querySelector(".change")
+  let wordArr = ["Style","Elegance","Minimalism","Comfort"]
+  let i = 0;
+  setInterval(() =>{
+    changeText.innerText = wordArr[i]
+    i++
+    if(i == 4){
+      i = 0
+    }
+  },2000);
 !(function(d){
     let itemClassName = "carousel__photo";
     items = d.getElementsByClassName(itemClassName),
@@ -78,7 +67,7 @@
         // setTimeout runs its function once after the given time
         setTimeout(function(){
           moving = false
-        }, 500);
+        }, 3000);
       }
 
 function moveCarouselTo(slide) {

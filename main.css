@@ -459,3 +459,8 @@ list-style:none;
 .card-size-l h1{
   text-align: center;
 }
+
+.social-icon svg{
+  height: 50px;
+  width: 50px;
+}

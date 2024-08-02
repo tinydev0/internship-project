@@ -85,3 +85,7 @@ border-radius:15px;
     .card-size-xl h1{
         text-align: center;
       }
+
+.social{
+text-align: end;
+      }
