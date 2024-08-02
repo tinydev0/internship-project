@@ -30,3 +30,10 @@ body{
 .feature-card:hover{
     box-shadow: 11px 11px lightgreen;
 }
+
+.feature-card p{
+    padding-left: 10px;
+}
+.list-style-n{
+    list-style: none;
+}

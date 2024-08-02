@@ -9,3 +9,8 @@ body{
 height: 400px;
 width: 80%;
 }
+.card-size-xl{
+    height: fit-content;
+    width: 80%;
+    padding: 20px;
+}
