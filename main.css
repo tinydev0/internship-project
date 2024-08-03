@@ -1,6 +1,6 @@
 
 body{
-  background-color: black;
+  background-color: #252525;
   color: white;
 }
 .br{
@@ -173,7 +173,7 @@ svg{
 .banner-text{
     font-size: xx-large;
     align-self: center;
-    width:50%;
+    width:53%;
 }
 
 .banner img{
@@ -437,6 +437,14 @@ list-style:none;
     height: 100px;
     width: 229px;
 }
+.social-icon svg{
+  height: 50px;
+  width: 60px;
+}
+.social-icon:nth-child(2) svg{
+  height: 40px;
+  width: 40px;
+}
 
 /* About us */
 #About-us{
@@ -459,8 +467,7 @@ list-style:none;
 .card-size-l h1{
   text-align: center;
 }
-
-.social-icon svg{
-  height: 50px;
-  width: 50px;
+.card-size-xl h1{
+  text-align: center;
 }
+
