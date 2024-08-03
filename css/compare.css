@@ -215,6 +215,7 @@ table{
 
   }
 th, td {
+    color:white;
     padding: 8px;
     text-align: center;
   }
