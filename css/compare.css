@@ -5,7 +5,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat ; 
-    
+    color: black !important;
 }
 /* general class */
 .br{
@@ -208,14 +208,13 @@ select{
 table{
     width: 80%;
     border-collapse: collapse;
-    /* margin-top: 20px; */
     margin-left: 10%;
+    margin-bottom: 30px;
     margin-right: 10%;
     border-radius:15px;
 
   }
 th, td {
-    border: 1px solid white;
     padding: 8px;
     text-align: center;
   }
